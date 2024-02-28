@@ -60,6 +60,7 @@ public class NacosDataChangedListener extends AbstractNodeDataChangedListener {
     @Override
     public void doDelConfig(final String dataId) {
 
+
         try {
             configService.removeConfig(
                     dataId,
